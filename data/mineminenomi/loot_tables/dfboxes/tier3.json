@@ -1,0 +1,86 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "mineminenomi:tier2",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:tori_tori_no_mi_model_phoenix",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:wara_wara_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:ito_ito_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:zushi_zushi_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:gura_gura_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:yuki_yuki_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:yami_yami_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:gasu_gasu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:magu_magu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:suna_suna_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:goro_goro_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:moku_moku_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pika_pika_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:hie_hie_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mera_mera_no_mi",
+					"weight": 100
+				}
+			]
+		}
+	]
+}

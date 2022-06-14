@@ -1,0 +1,106 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "mineminenomi:tier2",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:ushi_ushi_no_mi_model_bison",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:zou_zou_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:hito_hito_no_mi_model_daibutsu",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kira_kira_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:beta_beta_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pero_pero_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:netsu_netsu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:sui_sui_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:doa_doa_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:yomi_yomi_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mero_mero_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:supa_supa_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:horo_horo_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:doru_doru_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kage_kage_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bomu_bomu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:nikyu_nikyu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:ope_ope_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:gomu_gomu_no_mi",
+					"weight": 100
+				}
+			]
+		}
+	]
+}

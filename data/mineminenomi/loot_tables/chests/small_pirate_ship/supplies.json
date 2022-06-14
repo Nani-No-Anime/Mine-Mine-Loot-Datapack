@@ -1,0 +1,255 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:weapons",
+			"rolls": {
+				"min": 1.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:marine_sword",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pirate_cutlass",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pipe",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mace",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bullet",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flintlock",
+					"weight": 70
+				}
+			]
+		},
+		{
+			"name": "mineminenomi:standard_food",
+			"rolls": {
+				"min": 2.0,
+				"max": 5.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bread",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potato",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"weight": 90,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 6.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dried_kelp",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10.0,
+								"max": 20.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mineminenomi:premium_food",
+			"rolls": {
+				"min": 0.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stew",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"weight": 90,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_soup",
+					"weight": 80
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beetroot_soup",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:cola",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "mineminenomi:treasure",
+			"rolls": {
+				"min": 0.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 10.0,
+								"max": 50.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 50.0,
+								"max": 100.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 6.0,
+								"max": 18.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:wanted_poster_package",
+					"weight": 5
+				}
+			]
+		}
+	]
+}

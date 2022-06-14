@@ -1,0 +1,199 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:dials",
+			"rolls": {
+				"min": 3.0,
+				"max": 5.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:eisen_dial",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 15.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 700000.0,
+								"max": 1000000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flame_dial",
+					"weight": 90,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 15.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 1500000.0,
+								"max": 2000000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:axe_dial",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 15.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 2000000.0,
+								"max": 2500000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:milky_dial",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 2000000.0,
+								"max": 3000000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flash_dial",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 1000000.0,
+								"max": 1500000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:breath_dial",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 2500000.0,
+								"max": 2500000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:reject_dial",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 100000000.0,
+								"max": 200000000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:impact_dial",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "mineminenomi:set_price",
+							"price_range": {
+								"min": 3000000.0,
+								"max": 4000000.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

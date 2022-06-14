@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "mineminenomi:bazooka"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 96
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:empty",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mineminenomi:cannon_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 92
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mineminenomi:marine_hat"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 88
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mineminenomi:marine_boots"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 88
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mineminenomi:marine_pants"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 88
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mineminenomi:marine_chest"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 88
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mineminenomi:wooden_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mineminenomi:iron_box"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 890
+        }
+      ]
+    }
+  ]
+}

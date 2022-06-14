@@ -1,0 +1,150 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:cap",
+			"rolls": {
+				"min": 0.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 50.0,
+								"max": 70.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 50.0,
+								"max": 150.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "buried_treasure",
+							"decoration": "red_x",
+							"zoom": 1,
+							"search_radius": 30,
+							"skip_existing_chunks": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:three_cigars",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]					
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:smoking_pipe",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]					
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:compass",
+					"weight": 50
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"weight": 50
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:tonfa",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:den_den_mushi",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:cola",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:sake_bottle",
+					"weight": 10
+				}
+			]
+		}
+	]
+}

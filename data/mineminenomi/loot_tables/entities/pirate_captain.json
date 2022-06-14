@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "mineminenomi:pirate_cutlass"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mineminenomi:kiribachi"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 798
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "mineminenomi:bandana"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 92
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mineminenomi:pirate_boots"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 92
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mineminenomi:pirate_pants"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 92
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mineminenomi:pirate_chest"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 92
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mineminenomi:wooden_box"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 895
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:wooden_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:iron_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:golden_box"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 880
+        }
+      ]
+    }
+  ]
+}

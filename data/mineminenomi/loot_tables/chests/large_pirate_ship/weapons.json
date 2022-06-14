@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:weapons",
+			"rolls": {
+				"min": 2.0,
+				"max": 4.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:marine_sword",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pirate_cutlass",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:tonfa",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mace",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flintlock",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:senriku",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:porkchop",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

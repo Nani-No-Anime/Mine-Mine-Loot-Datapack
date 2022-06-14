@@ -1,0 +1,200 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:weapons",
+			"rolls": {
+				"min": 2.0,
+				"max": 4.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:marine_sword",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pirate_cutlass",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pipe",
+					"weight": 70
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mace",
+					"weight": 50
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bullet",
+					"weight": 120,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10.0,
+								"max": 20.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:cannon_ball",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},				
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kairoseki_bullet",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flintlock",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flintlock",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:senriku",
+					"weight": 30
+				}
+			]
+		},
+		{
+			"name": "mineminenomi:supplies",
+			"rolls": {
+				"min": 1.0,
+				"max": 4.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 20.0,
+								"max": 50.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 20.0,
+								"max": 50.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:wanted_poster_package",
+					"weight": 5
+				}
+			]
+		}
+	]
+}

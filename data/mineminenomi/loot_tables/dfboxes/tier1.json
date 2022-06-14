@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "mineminenomi:tier1",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:hito_hito_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:ushi_ushi_no_mi_model_giraffe",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mogu_mogu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kuku_kuku_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:nagi_nagi_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:awa_awa_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kachi_kachi_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:chiyu_chiyu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:sabi_sabi_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:baku_baku_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:horu_horu_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kilo_kilo_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:goe_goe_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bari_bari_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:noro_noro_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:suke_suke_no_mi",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bane_bane_no_mi",
+					"weight": 100
+				}
+			]
+		}
+	]
+}

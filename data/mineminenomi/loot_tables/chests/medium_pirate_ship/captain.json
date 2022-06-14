@@ -1,0 +1,180 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "mineminenomi:weapons",
+			"rolls": {
+				"min": 1.0,
+				"max": 2.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:marine_sword",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:pirate_cutlass",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:mace",
+					"weight": 50
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:kairoseki_bullet",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 7.0,
+								"max": 15.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:flintlock",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:senriku",
+					"weight": 40
+				}
+			]
+		},
+		{
+			"name": "mineminenomi:treasure",
+			"rolls": {
+				"min": 0.0,
+				"max": 3.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 50.0,
+								"max": 100.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:belly_pouch",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "mineminenomi:set_belly_in_pouch",
+							"belly_range": {
+								"min": 50.0,
+								"max": 100.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5.0,
+								"max": 20.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:den_den_mushi",
+					"weight": 55
+				},	
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:wanted_poster_package",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:ultra_cola",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:bottle_of_rum",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]	
+				},				
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:cigar",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]					
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:smoking_pipe",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]					
+				},					
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:wooden_box",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "mineminenomi:iron_box",
+					"weight": 5
+				}
+			]
+		}
+	]
+}
