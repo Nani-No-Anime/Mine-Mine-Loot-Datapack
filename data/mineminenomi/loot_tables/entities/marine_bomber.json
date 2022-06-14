@@ -71,12 +71,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_hat"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -86,12 +86,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_boots"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -101,12 +101,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_pants"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -116,12 +116,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_chest"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -142,6 +142,31 @@
         {
           "type": "minecraft:empty",
           "weight": 890
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 25.0,
+                "max": 100.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 97
         }
       ]
     }

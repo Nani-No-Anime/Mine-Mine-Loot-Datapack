@@ -85,17 +85,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 2,
           "name": "mineminenomi:sniper_goggles"
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 4,
           "name": "mineminenomi:bandana"
         },
         {
           "type": "minecraft:empty",
-          "weight": 92
+          "weight": 96
         }
       ]
     },
@@ -110,12 +110,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "mineminenomi:pirate_boots"
         },
         {
           "type": "minecraft:empty",
-          "weight": 92
+          "weight": 96
         }
       ]
     },
@@ -130,12 +130,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "mineminenomi:pirate_pants"
         },
         {
           "type": "minecraft:empty",
-          "weight": 92
+          "weight": 96
         }
       ]
     },
@@ -150,12 +150,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "mineminenomi:pirate_chest"
         },
         {
           "type": "minecraft:empty",
-          "weight": 92
+          "weight": 96
         }
       ]
     },
@@ -171,6 +171,30 @@
         {
           "type": "minecraft:empty",
           "weight": 895
+        }
+      ]
+    },    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 50.0,
+                "max": 100.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 97
         }
       ]
     }

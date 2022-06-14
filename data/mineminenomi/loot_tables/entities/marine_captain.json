@@ -7,13 +7,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 40,
           "name": "mineminenomi:marine_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 50,
-          "name": "minecraft:iron_sword"
         },
         {
           "type": "minecraft:item",
@@ -22,7 +17,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 799
+          "weight": 959
         }
       ]
     },
@@ -32,12 +27,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_hat"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -47,12 +42,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_boots"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -62,12 +57,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_pants"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
@@ -77,39 +72,64 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "mineminenomi:marine_captain_cape"
         },
         {
           "type": "minecraft:empty",
-          "weight": 88
+          "weight": 98
         }
       ]
     },
     {
-        "name": "mineminenomi:drops",
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "mineminenomi:wooden_box"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "mineminenomi:iron_box"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "mineminenomi:golden_box"
-          },
-          {
-            "type": "minecraft:empty",
-            "weight": 880
-          }
-        ]
-      }
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:wooden_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:iron_box"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mineminenomi:golden_box"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 880
+        }
+      ]
+    },
+    {
+      "name": "mineminenomi:drops",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 50.0,
+                "max": 200.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 97
+        }
+      ]
+    }
   ]
 }
