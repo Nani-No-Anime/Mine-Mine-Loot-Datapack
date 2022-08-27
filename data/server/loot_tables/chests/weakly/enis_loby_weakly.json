@@ -1,0 +1,176 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:kairoseki_handcuffs",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mcnnaop:garp_boat_item",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:sea_king_meat",
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        }
+      ]
+    },
+
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:cp9_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:cp9_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:cp9_jacket",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:marine_captain_cape",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:usopps_overall",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:soge_king_mask_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:nezumi_hat_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:usopps_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:smokers_jacket_chestplate",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_jacket",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:usopps_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        }
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:golden_den_den_mushi",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:perfect_clima_tact",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:jitte",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:kabuto",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": { "min": 15000, "max": 15000, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

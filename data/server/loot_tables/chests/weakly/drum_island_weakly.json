@@ -1,0 +1,150 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:medic_bag",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight":10,
+          "type": "minecraft:item",
+          "name": "mcnnaop:chopper_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:choppers_hat",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:daltons_spade",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 90
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mcnnaop:dr_hiriluk_briefcase_block",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:lapahn_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "mineminenomi:belly_pouch",
+                "weight": 100,
+                "functions": [
+                    {
+                        "function": "mineminenomi:set_belly_in_pouch",
+                        "belly_range": {
+                            "min": 10000.0,
+                            "max": 10000.0,
+                            "type": "minecraft:uniform"
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+  ]
+}

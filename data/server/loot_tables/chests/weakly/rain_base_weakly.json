@@ -1,0 +1,286 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:kairoseki_bars",
+          "functions": [{ "function": "minecraft:set_count", "count": 16 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigar",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigarette",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bottle_of_rum",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:sake_bottle",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 10000.0,
+                "max": 10000.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mcnnaop:crocodile_coat_chestplate",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_shirt",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "§6Mr. Prices's Shirt"
+            },
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_shoes",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "§6Mr. Prices's Shirt"
+            },
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_pants",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": "§6Mr. Prices's Pants"
+            },
+            { "function": "minecraft:set_count", "count": 1 }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_shoes",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sanjis_shirt",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mcnnaop:mr_3_hair_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 75
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:hook",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 90
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:den_den_mushi",
+          "functions": [{ "function": "minecraft:set_count", "count": 10 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigar",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigarette",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bottle_of_rum",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:sake_bottle",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:kung_fu_dugong_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_trader_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:sake_bottle",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bottle_of_rum",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigarette",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:cigar",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [{ "function": "minecraft:set_count", "count": 10 }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mcnnaop:laws_hat_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:straw_hat",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mcnnaop:sunny_item",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:sea_king_meat",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_with_gun_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_brute_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_with_sword_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_trader_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:doctor_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:dojo_sensei_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": { "min": 10000, "max": 10000, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:weather_wizard_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:black_leg_trainer_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bow_master_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:brawler_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bandit_with_sword_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bandit_brute_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_captain_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bandit_sniper_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:bandit_bomber_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    }
+  ]
+}

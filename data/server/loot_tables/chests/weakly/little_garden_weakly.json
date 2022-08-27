@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:color_palette",
+          "functions": [{ "function": "minecraft:set_count", "count": 2 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 90
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:den_den_mushi",
+          "functions": [{ "function": "minecraft:set_count", "count": 2 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:key",
+          "functions": [{ "function": "minecraft:set_count", "count": 5 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_trader_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "mineminenomi:belly_pouch",
+                "weight": 100,
+                "functions": [
+                    {
+                        "function": "mineminenomi:set_belly_in_pouch",
+                        "belly_range": {
+                            "min": 10000.0,
+                            "max": 10000.0,
+                            "type": "minecraft:uniform"
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+  ]
+}

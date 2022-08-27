@@ -1,0 +1,145 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangesodaitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangepieitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangejuiceitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangesmoothieitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangejellytoastitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangejellysandwichitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [{ "function": "minecraft:set_count", "count": 16 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:clima_tact",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:nonosama_staff",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 80
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2trees:orangeitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangejellyitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:orangeyogurtitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 8 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 1000.0,
+                "max": 1000.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

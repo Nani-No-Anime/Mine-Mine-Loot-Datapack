@@ -1,0 +1,144 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_planks",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_stone_slab",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_terracotta",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_terracotta",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [{ "function": "minecraft:set_count", "count": 16 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2foodextended:cherrypieitem",
+          "functions": [{ "function": "minecraft:set_count", "count": 16 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick_stairs",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_planks",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_planks",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_block",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_stairs",
+          "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "mineminenomi:belly_pouch",
+                "weight": 100,
+                "functions": [
+                    {
+                        "function": "mineminenomi:set_belly_in_pouch",
+                        "belly_range": {
+                            "min": 2000.0,
+                            "max": 2000.0,
+                            "type": "minecraft:uniform"
+                        }
+                    }
+                ]
+            }
+        ]
+      }
+  ]
+}

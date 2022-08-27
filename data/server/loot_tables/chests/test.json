@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_terracotta",
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_terracotta",
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": { "min": 2000, "max": 2000, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

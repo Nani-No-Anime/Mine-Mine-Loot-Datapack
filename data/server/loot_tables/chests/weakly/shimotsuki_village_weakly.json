@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_shirt",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 70
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:wado_ichimonji",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block",
+          "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "biomesoplenty:cherry_stairs",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 98
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": { "min": 3000, "max": 3000, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

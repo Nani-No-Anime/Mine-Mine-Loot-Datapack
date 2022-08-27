@@ -1,0 +1,170 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:marine_trader_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_trader_spawn_egg",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:buggys_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:buggys_leggings",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:smokers_jacket_chestplate",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:smoker_jacket",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:straw_hat",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:buggys_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:pirate_captain_cape",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:buggys_chestplate",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:marine_captain_cape",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mcnnaop:alvida_hat_helmet",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 45
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sandai_kitetsu",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:mace",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:senriku",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:flintlock",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:bazooka",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "weight": 10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:pipe",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:belly_pouch",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "mineminenomi:set_belly_in_pouch",
+              "belly_range": {
+                "min": 10000.0,
+                "max": 10000.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

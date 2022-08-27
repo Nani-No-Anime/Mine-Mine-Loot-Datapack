@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineminenomi:wanted_poster_package",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "minecraft:item",
+          "name": "mineminenomi:sandai_kitetsu",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:luffys_pants",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:luffys_sandals",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_boots",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:zoros_shirt",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:luffys_shirt",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+            "weight":10,
+          "type": "minecraft:item",
+          "name": "mineminenomi:straw_hat",
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:yellow_concrete",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gray_concrete",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_gray_concrete",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:blue_concrete",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:green_concrete",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:scaffolding",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_door",
+            "functions": [{ "function": "minecraft:set_count", "count": 10 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_door",
+            "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mineminenomi:belly_pouch",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "mineminenomi:set_belly_in_pouch",
+                "belly_range": { "min": 2000, "max": 2000, "type": "minecraft:uniform" }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_stained_glass_pane",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal_block",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nether_brick_stairs",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nether_brick_fence",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nether_bricks",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spruce_fence",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stripped_acacia_log",
+            "functions": [{ "function": "minecraft:set_count", "count": 32 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:polished_diorite",
+            "functions": [{ "function": "minecraft:set_count", "count": 64 }]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [{ "function": "minecraft:set_count", "count": 20 }]
+          }
+        ]
+      }
+    ]
+  }
+  
